@@ -12,9 +12,17 @@
 		3A4586431C710DB4001BE896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4586411C710DB4001BE896 /* Main.storyboard */; };
 		3A4586451C710DB4001BE896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4586441C710DB4001BE896 /* Assets.xcassets */; };
 		3A4586481C710DB4001BE896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4586461C710DB4001BE896 /* LaunchScreen.storyboard */; };
+		3A45865D1C711043001BE896 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4586511C711043001BE896 /* AFHTTPSessionManager.m */; };
+		3A45865E1C711043001BE896 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4586541C711043001BE896 /* AFNetworkReachabilityManager.m */; };
+		3A45865F1C711043001BE896 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4586561C711043001BE896 /* AFSecurityPolicy.m */; };
+		3A4586601C711043001BE896 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4586581C711043001BE896 /* AFURLRequestSerialization.m */; };
+		3A4586611C711043001BE896 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45865A1C711043001BE896 /* AFURLResponseSerialization.m */; };
+		3A4586621C711043001BE896 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45865C1C711043001BE896 /* AFURLSessionManager.m */; };
+		C7CB1749539AE40F91B47D28 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E062A7CA1C72B8D4357EE9 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2538D520CC8D9D131CAC284A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3A45863A1C710DB4001BE896 /* Web Service Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Service Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A45863D1C710DB4001BE896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A45863F1C710DB4001BE896 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,22 @@
 		3A4586441C710DB4001BE896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A4586471C710DB4001BE896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A4586491C710DB4001BE896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4586501C711043001BE896 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		3A4586511C711043001BE896 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		3A4586521C711043001BE896 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		3A4586531C711043001BE896 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		3A4586541C711043001BE896 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		3A4586551C711043001BE896 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		3A4586561C711043001BE896 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		3A4586571C711043001BE896 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		3A4586581C711043001BE896 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		3A4586591C711043001BE896 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		3A45865A1C711043001BE896 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		3A45865B1C711043001BE896 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		3A45865C1C711043001BE896 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		3A4586631C711298001BE896 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		6B8662CC588DCC1D10522ADB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		98E062A7CA1C72B8D4357EE9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CB1749539AE40F91B47D28 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05938C05BDD495EE42686CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2538D520CC8D9D131CAC284A /* Pods.debug.xcconfig */,
+				6B8662CC588DCC1D10522ADB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3A4586311C710DB4001BE896 = {
 			isa = PBXGroup;
 			children = (
+				3A4586631C711298001BE896 /* bridge.h */,
 				3A45863C1C710DB4001BE896 /* Web Service Example */,
 				3A45863B1C710DB4001BE896 /* Products */,
+				3A45864F1C711043001BE896 /* AFNetworking */,
+				82E2A0D212FDEEA2048EB41C /* Frameworks */,
+				05938C05BDD495EE42686CAC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +102,34 @@
 			path = "Web Service Example";
 			sourceTree = "<group>";
 		};
+		3A45864F1C711043001BE896 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3A4586501C711043001BE896 /* AFHTTPSessionManager.h */,
+				3A4586511C711043001BE896 /* AFHTTPSessionManager.m */,
+				3A4586521C711043001BE896 /* AFNetworking.h */,
+				3A4586531C711043001BE896 /* AFNetworkReachabilityManager.h */,
+				3A4586541C711043001BE896 /* AFNetworkReachabilityManager.m */,
+				3A4586551C711043001BE896 /* AFSecurityPolicy.h */,
+				3A4586561C711043001BE896 /* AFSecurityPolicy.m */,
+				3A4586571C711043001BE896 /* AFURLRequestSerialization.h */,
+				3A4586581C711043001BE896 /* AFURLRequestSerialization.m */,
+				3A4586591C711043001BE896 /* AFURLResponseSerialization.h */,
+				3A45865A1C711043001BE896 /* AFURLResponseSerialization.m */,
+				3A45865B1C711043001BE896 /* AFURLSessionManager.h */,
+				3A45865C1C711043001BE896 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		82E2A0D212FDEEA2048EB41C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98E062A7CA1C72B8D4357EE9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A45864C1C710DB4001BE896 /* Build configuration list for PBXNativeTarget "Web Service Example" */;
 			buildPhases = (
+				66F073749EF78380F2011B24 /* Check Pods Manifest.lock */,
 				3A4586361C710DB4001BE896 /* Sources */,
 				3A4586371C710DB4001BE896 /* Frameworks */,
 				3A4586381C710DB4001BE896 /* Resources */,
+				5E941A6CCF129E363279C45A /* Embed Pods Frameworks */,
+				DCAF85DBCE166E409C00F156 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +199,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E941A6CCF129E363279C45A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F073749EF78380F2011B24 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCAF85DBCE166E409C00F156 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A4586361C710DB4001BE896 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A45865D1C711043001BE896 /* AFHTTPSessionManager.m in Sources */,
+				3A4586621C711043001BE896 /* AFURLSessionManager.m in Sources */,
+				3A45865F1C711043001BE896 /* AFSecurityPolicy.m in Sources */,
 				3A4586401C710DB4001BE896 /* ViewController.swift in Sources */,
+				3A4586601C711043001BE896 /* AFURLRequestSerialization.m in Sources */,
+				3A45865E1C711043001BE896 /* AFNetworkReachabilityManager.m in Sources */,
+				3A4586611C711043001BE896 /* AFURLResponseSerialization.m in Sources */,
 				3A45863E1C710DB4001BE896 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,23 +368,29 @@
 		};
 		3A45864D1C710DB4001BE896 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2538D520CC8D9D131CAC284A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Web Service Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-dk.Web-Service-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Debug;
 		};
 		3A45864E1C710DB4001BE896 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8662CC588DCC1D10522ADB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Web Service Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-dk.Web-Service-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Release;
 		};
@@ -284,6 +413,7 @@
 				3A45864E1C710DB4001BE896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
