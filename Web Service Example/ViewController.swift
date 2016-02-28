@@ -19,9 +19,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+		
+		forecastLabel.morphingEffect = .Pixelate
         self.forecastLabel.text = ""
-        
+		
         //instantiate a gray Activity Indicator View
         let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .Gray)
         //add the activity to the ViewController's view
@@ -48,6 +49,7 @@ class ViewController: UIViewController {
             failure: { (operation,error) in
                 print("Error: " + error.localizedDescription)
         })
+
     }
 
     override func didReceiveMemoryWarning() {
